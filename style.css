@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(90deg, rgba(0,157,176,1) 20%, rgba(0,255,201,1) 100%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Establece la altura del cuerpo al 100% de la ventana */
+}
+
+.card .card-title{
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tareas{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acciones span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
